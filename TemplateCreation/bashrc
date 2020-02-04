@@ -1,0 +1,16 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+umask 022
+
+# User specific aliases and functions
+
+export LD_LIBRARY_PATH=/lib:/lib64:$LD_LIBRARY_PATH
+
+
+export PATH=$PATH:$HOME/.local/bin:$HOME/bin:/sbin:/bin:/usr/sbin:/usr/bin
