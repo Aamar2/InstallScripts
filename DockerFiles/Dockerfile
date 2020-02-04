@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 RUN mkdir /home/temp && mkdir /home/installerFiles
 COPY /SilentInstall/*.* /home/installerFiles/
-ADD informatica_1040_server_linux-x64.tar /home/temp/
+ADD <Installer>.tar /home/temp/
 
 # Install OpenJDK-8
 RUN apt-get update && \
