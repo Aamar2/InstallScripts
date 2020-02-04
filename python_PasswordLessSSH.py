@@ -93,4 +93,5 @@ os.system("echo '{}' >> ~/.ssh/config".format(StrictHostKeyChecking))
 os.system("echo '{}' >> ~/.ssh/config".format(UserKnownHostsFile))
 os.system('chmod 700 ~/.ssh/config')
 
+
 os.system('ssh -o StrictHostKeyChecking=no '+ hadoopUserName + '@' + hadoopHostName)
