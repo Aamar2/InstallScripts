@@ -17,17 +17,16 @@ os.system('sudo pip install pexpect')
 import paramiko
 import pexpect
 
-#hadoopIP = '10.65.157.57'
-#hadoopIP = '10.65.156.102'
-#hadoopHostName = 'invr75dsg1010.informatica.com'
-#hadoopHostName = 'invr70dsg952.informatica.com'
+
+#hadoopHostName = 'xyz.amar.com'
+#hadoopHostName = 'aabc.amar.com'
 hadoopHostName = os.environ['Hadoop_Gateway_Host']
 hadoopUserName = os.environ['Hadoop_Gateway_User']
 hadoopPassword = os.environ['Hadoop_Gateway_User_Password']
 
 
 
-hadoopName = 'invr75dsg1010'
+hadoopName = 'abc.amar.com'
 
 ### Method for read content #################
 def readFile(filename):
